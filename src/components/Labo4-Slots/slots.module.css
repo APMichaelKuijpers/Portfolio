@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+  min-height: 100vh;
+  height: 100%;
+  /* background-color: white; */
+}
+
+.slot {
+  border: 1px solid deeppink;
+  border-radius: 10px; 
+  width: 100px;
+  margin: 10px;
+}
+.lost{
+  color: red;
+  text-align: center;
+}
+.won{
+  color: green;
+  text-align: center;
+  font-weight: bold;
+  /* -webkit-animation:colorchange 10s infinite alternate;   */
+}
+
+@-webkit-keyframes colorchange {
+  0% {      color: #5AAEFF;    }
+  100% {      color: #FF71C0;    }
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+}
+
+.text{
+  text-align: center;
+}
+/* {display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", padding: 50} */

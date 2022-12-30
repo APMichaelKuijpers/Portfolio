@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+  padding: 50px;
+  margin: 10px;
+  height: 100vh;
+}
+
+
+.textpadding{
+  padding-bottom: 45px;
+}
+/* {display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", padding: 50} */

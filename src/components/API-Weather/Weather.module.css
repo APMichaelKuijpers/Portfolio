@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+  padding: 50px;
+  margin: 10px;
+  height: 100vh;
+}
+
+
+.CitySearch{
+  background: transparent;
+  color:deeppink;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 215px;
+  border: solid 3px deeppink;
+}
+
+.textpadding{
+  padding-bottom: 30px;
+}
+/* {display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", padding: 50} */

@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.bodyContact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+  
+.contactForm {
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: 100px 0.8fr;
+  }
+
+.contactLabel{
+    font-family: Arial, Helvetica, sans-serif;
+    color: deeppink;
+}
+
+.contactInput{
+    background-color:transparent;
+    padding:10px;
+    width: 80vh;
+    margin-bottom: 10px;
+    border: solid 2px deeppink;
+    color:deeppink;
+    font-size: 20px;
+  }
+
+.contactButton{
+    margin-top: 10px;
+    grid-column: 1/ span 2;
+    background-color: deeppink;
+    color: #2F2E30;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+  }
+  
+.confirmation{
+    margin-top: 20px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: deeppink;
+    grid-row-start: 6;
+    grid-column: 1/ span 2;
+  }

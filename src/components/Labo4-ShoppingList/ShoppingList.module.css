@@ -1,0 +1,29 @@
+.App {
+  padding: 50px;
+  margin: 10px;
+  min-height: 100vh;
+  height: 100%;
+}
+
+.shoppingForm{
+  display: grid;
+  grid-template-columns: 100px 0.6fr;
+}
+.error{
+  color:red
+}
+.succes{
+  color:green
+}
+
+
+.shoppingInput{
+  background-color:transparent;
+  padding:10px;
+  width: 80vh;
+  margin-bottom: 10px;
+  border: solid 2px deeppink;
+  color:deeppink;
+  font-size: 20px;
+}
+/* {display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", padding: 50} */

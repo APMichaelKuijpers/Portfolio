@@ -1,0 +1,112 @@
+.bioFlex {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    min-height: 100vh;
+    height: 100%;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.bio{
+    margin-right: 70px;
+}
+.bioSection p {
+    font-size: 15px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.bioPink{
+    color: deeppink;
+}
+.MichaelFoto {
+    height: 450px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.bioSection{
+    flex: 1;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 33%;
+    height: 100px;
+}
+
+.barsSeperation{
+    margin-bottom: 6px; 
+
+}
+
+.progress {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid deeppink;
+    width: 20em;
+    border-radius: 4px;
+    box-shadow: 0 0 3px #B0B0;
+    backdrop-filter: blur(2px) brightness(101%);
+ }
+
+ .barsSeperation p{
+    font-size: 13px;
+    font-weight: normal;
+ }
+
+ 
+.bar {
+    width: 85%;
+    background: deeppink;
+    box-shadow: inset 0px 12px 1.7px #FFFFFF33;
+    border-radius: 3px;
+    color: white;
+    text-align: center;
+ }
+.barTypesScript{
+    width: 65%;
+    background: deeppink;
+    box-shadow: inset 0px 12px 1.7px #FFFFFF33;
+    border-radius: 3px;
+    color: white;
+    text-align: center;
+ }
+.barPhp{
+    width: 50%;
+    background: deeppink;
+    box-shadow: inset 0px 12px 1.7px #FFFFFF33;
+    border-radius: 3px;
+    color: white;
+    text-align: center;
+ }
+.barReact {
+    width: 75%;
+    background: deeppink;
+    box-shadow: inset 0px 12px 1.7px #FFFFFF33;
+    border-radius: 3px;
+    color: white;
+    text-align: center;
+ }
+.barC{
+    width: 25%;
+    background: deeppink;
+    box-shadow: inset 0px 12px 1.7px #FFFFFF33;
+    border-radius: 3px;
+    color: white;
+    text-align: center;
+ }
+.barExpo{
+    width: 65%;
+    background: deeppink;
+    box-shadow: inset 0px 12px 1.7px #FFFFFF33;
+    border-radius: 3px;
+    color: white;
+    text-align: center;
+ }

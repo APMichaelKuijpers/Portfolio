@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+  min-height: 100vh;
+  height: 100%;
+}
+
+.card{
+  box-shadow: 0 4px 8px 9 deeppink;
+  transition: 0.3s;
+  padding: 20px;
+  margin: 20px;
+}
+.card:hover{
+  box-shadow: 0 8px 16px 0 deeppink;
+}
+.container {
+  padding: 2px 16px;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

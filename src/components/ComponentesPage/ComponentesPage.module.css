@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ListComponents{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 30px 0;
+    gap: 30px 40px;
+}
+.ConpomentSearch{
+    border: solid 4px deeppink;
+    background-color:transparent;
+    padding:10px;
+    width: 90vh;
+    margin: 15px;
+    color:deeppink;
+    font-size: 20px;
+  }
+
+.container .box{
+    position: relative;
+    width: 320px;
+    height: 300px;
+    box-shadow: 5px 10px deeppink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+
+.listItem{
+    text-align: center;
+    color:deeppink;
+    margin-bottom: 50px;
+    text-decoration: none;
+}
+
+.listItem hr{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.listItem h2{
+    padding-top: 20px;
+}
+
+.container .box:hover {
+    background-color: deeppink;
+    border-color: #2F2E30;
+}
+
+.container .box:hover .listItem{
+    text-align: center;
+    color:#2F2E30;
+    margin-bottom: 50px;
+    text-decoration: none;
+}

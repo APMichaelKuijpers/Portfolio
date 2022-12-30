@@ -1,0 +1,23 @@
+.App {
+  padding: 50px;
+  margin: 10px; 
+  min-height: 100vh;
+  height: 100%;
+}
+
+td, th{
+  padding: 10px;
+  text-align: center;
+  border: solid 2px deeppink;
+}
+
+table{
+  border: solid 2px deeppink;
+}
+
+.ClassSearch{
+  margin-bottom: 10px;
+  width: 215px;
+  border: solid 2px deeppink;
+}
+/* {display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", padding: 50} */

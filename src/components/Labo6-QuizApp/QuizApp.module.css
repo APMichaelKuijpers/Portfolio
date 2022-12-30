@@ -1,0 +1,9 @@
+.App {
+  text-align: center;
+  padding-top: 50px;
+  margin-top: 10px;
+  min-height: 100vh;
+  height: 100%;
+  
+}
+/* {display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", padding: 50} */
